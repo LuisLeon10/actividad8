@@ -30,7 +30,13 @@
         </div>
         <div id="inventario">
             <h4>--Inventario--</h4>
-            <div id="caja-inventario" v-for="producto in productos">
+            <div class="caja-inventario">
+                <p><b>Cantidad</b></p>
+                <p><b>Nombre</b></p>
+                <p><b>Precio Unitario</b></p>
+                <p><b>Total</b></p>
+            </div>
+            <div class="caja-inventario" v-for="producto in productos">
                 <div id="piezas">
                     <input type="button" value="+" class="btn btn-danger" @click="producto.cantidad++">
                     <input type="number" class="form-control" v-model="producto.cantidad" min="0">
