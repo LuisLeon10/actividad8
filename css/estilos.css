@@ -35,6 +35,7 @@ container-fluid{
     display: flex;
     text-align: center;
     margin: 10px;
+    justify-content: space-between;
 }
 
 #piezas{
