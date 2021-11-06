@@ -31,7 +31,7 @@ container-fluid{
     padding: 30px;
     border: 2px solid rgb(156, 0, 0);
 }
-#caja-inventario{
+.caja-inventario{
     display: flex;
     text-align: center;
     margin: 10px;
